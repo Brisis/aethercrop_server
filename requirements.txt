@@ -1,0 +1,6 @@
+rembg[cli]
+flask
+python-dotenv
+flask-cors
+onnxruntime
+gunicorn
