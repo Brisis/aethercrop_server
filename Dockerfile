@@ -6,7 +6,7 @@ COPY requirements.txt .
 RUN pip install --prefer-binary --default-timeout=300 --no-cache-dir -r requirements.txt
 
 # Copy the pre-downloaded ONNX model to the expected path
-COPY u2net.onnx /root/.u2net/u2net.onnx
+# COPY u2net.onnx /root/.u2net/u2net.onnx
 
 COPY . .
 
